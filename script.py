@@ -6,7 +6,7 @@ from googleapiclient.errors import HttpError
 
 def upload_video_to_youtube(video_file, title, description, tags):
     # First, let's build the credentials object
-    credentials, project = google.auth.default()
+    credentials, project = google.auth.default(https://github.com/Blogger-auto-post/abc/blob/main/client_secret%20sung.json)
 
     youtube = build('youtube', 'v3', credentials=credentials)
 

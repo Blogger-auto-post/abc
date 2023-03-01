@@ -15,7 +15,7 @@ task:
        - apt-get install -y tzdata
        - dpkg-reconfigure --frontend noninteractive tzdata
        - apt-get install -y python3-pip
-       - git clone git@dumps.tadiphone.dev:dumps/oneplus/op535dl1.git
+       - git clone https://dumps.tadiphone.dev/dumps/oneplus/op535dl1.git
        - ls
        - cd op535dl1
        - ls

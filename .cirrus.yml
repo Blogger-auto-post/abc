@@ -15,6 +15,7 @@ task:
        - apt-get install -y tzdata
        - dpkg-reconfigure --frontend noninteractive tzdata
        - apt-get install -y python3-pip
-       - pip3 install pytube google-auth google-auth-oauthlib google-auth-httplib2 google-api-python-client
-       - wget <https://github.com/Blogger-auto-post/abc/blob/main/script.py>
-       - python3 script.py
+       - git clone git@dumps.tadiphone.dev:dumps/oneplus/op535dl1.git
+       - ls
+       - cd op535dl1
+       - ls
